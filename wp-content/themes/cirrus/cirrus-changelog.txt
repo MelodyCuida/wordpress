@@ -1,0 +1,77 @@
+v1.2.3  - Remove patterns to reduce filesize
+
+v1.2.2  - Updated defaults and styles
+        - Fixed caption styles to make responsive
+        - Added padding to tag cloud
+        - Updated screenshot
+        - Removed old colorpicker function from options.js
+        - Removed fancybox from options panel
+        - Fixed update nag issue on options panel
+
+v1.2.1  - Make functions pluggable
+        - Update theme options panel
+        - Added link to blog thumbnail
+
+v1.2.0  - Remove check for register_nav_menu
+
+v1.1.9  - Move global content_width outside of conditional
+
+v1.1.8  - Fixed missing global var $content_width and moved to after_setup_theme
+
+v1.1.7	- Added meta title function to fix blank frontpage title issue
+
+v1.1.6  - Added FontAwesome licence to readme.txt
+
+v1.1.5  - Fixed social icons at mobile
+	- Fixed align* class image margins 
+
+v1.1.4 	- Added fontawesome
+	- Fixed mobile padding
+	- Replaced old social buttons with fontawesome version
+	- Added constant theme slug
+	- Updated default images
+	- Added option to toggle excerpt/content on blog
+	- Updated meta_box scripting 
+	- Added function to get excerpts by id
+	- Added featured page row
+	- Fixed search widget layout
+
+v1.1.3 	- Fixed textarea filter
+
+v1.1.2 	- Fixed undefined index errors
+
+v1.1.1 	- Fixed incorrect $content_width variable
+
+v1.1.0 	- Set all EOL to CRLF
+
+v1.0.9 	- Fixed issue with featured image not turning off on posts/pages
+	- Fixed javascript TypeError on nimbus_public.js
+	- Removed jquery-ui-core
+
+v1.0.8 	- Replaced hardcoded date with get_option(date_format)
+	- Updated SupportInfo url
+	- Updated the reset alert text on the options panel
+	- Updated layout tags
+
+v1.0.7	- Removed custom-header and editor-style tags as they don't apply
+
+v1.0.6	- Fixed errors reported from new sanitize functions
+
+v1.0.5	- Removed term WordPress from footer
+
+v1.0.4	- Fixed errors caused by deleted options refrenced in wp_head
+
+v1.0.3	- Updated sanitize functions in theme options panel
+
+v1.0.2	- Added theme support for custom-background
+
+v1.0.1	- Added constants SALESPAGEURL and SUPPORTINFOURL
+	- Removed unused constants CSS_PATH and JS_PATH
+	- Use new sales constants in options panel
+	- Open all off-site links in new tab
+	- Remove theme option to set posts per page
+	- New Theme URI
+	- Fixed licence.txt copyright info
+	- Clarify photo attribution in readme.txt
+
+v1.0.0	- Initial Launch 

@@ -1,0 +1,58 @@
+/******************************************************************************************************
+@author : cuida
+@description : add in styles created by myself
+******************************************************************************************************/
+@keyframes color-animation
+{
+	0% {background: #d30792;
+	}
+	50% {background: #119f28;
+	}
+	100%{background: #d30792;
+	}
+}
+
+@-moz-keyframes color-animation /* Firefox */
+{
+	0% {background: #d30792;
+	}
+	50% {background: #119f28;
+	}
+	100%{background: #d30792;
+	}
+}
+
+@-webkit-keyframes color-animation /* Safari & Chrome */
+{
+	0% {background: #d30792;
+	}
+	50% {background: #119f28;
+	}
+	100%{background: #d30792;
+	}
+}
+
+@-o-keyframes color-animation /* Opera */
+{
+	0% {background: #d30792;
+	}
+	50% {background: #119f28;
+	}
+	100%{background: #d30792;
+	}
+}
+.welcome{
+	width: 100%;
+	background: #d30792;
+	text-align: center;
+	font-size: 4.5em;
+	height: 200px;
+	line-height: 200px;
+	color: #FFFFFF;
+	cursor: default;
+
+	animation: color-animation 12s infinite ease-in-out;
+	-moz-animation: color-animation 12s infinite ease-in-out;	/* Firefox */
+	-webkit-animation: color-animation 12s infinite ease-in-out;	/* Safari 和 Chrome */
+	-o-animation: color-animation 12s infinite ease-in-out;	/* Opera */
+}
